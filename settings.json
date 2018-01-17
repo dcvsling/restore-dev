@@ -1,0 +1,22 @@
+{
+    "choco" : {
+        "source":{
+            "name":"MyGet",
+            "feed":"https://www.myget.org/F/dcvs-devenv/api/v2"
+        }
+    },
+    "git":{
+        "restore":{
+            "repo":"https://github.com/dcvsling/restore-dev.git"
+        },
+        "global":{
+            "user":{
+                "email":"dcvsling@gmail.com",
+                "name":"dcvsling"
+            }
+        }
+    },
+    "docker":{
+
+    }
+}
