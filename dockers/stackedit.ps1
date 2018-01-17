@@ -1,0 +1,1 @@
+docker run --publish 8080:9080 benweet/stackedit

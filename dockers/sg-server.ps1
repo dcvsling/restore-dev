@@ -1,0 +1,1 @@
+docker run --publish 7080:7080 --rm --volume /tmp/sourcegraph/config:/etc/sourcegraph --volume /tmp/sourcegraph/data:/var/opt/sourcegraph sourcegraph/server
