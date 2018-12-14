@@ -1,0 +1,21 @@
+---
+name: dcvs-devenv
+init:
+  git:
+    token:
+    repo:
+  nuget:
+    token:
+    feed:
+snapshot:
+  info:
+    datetime:
+  sources:
+  choco: clist -local
+  repo:
+    git:
+      clone: %USER_HOME%  
+
+      
+
+  
